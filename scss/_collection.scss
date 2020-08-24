@@ -1,0 +1,54 @@
+.col-left_bg {
+  position: absolute;
+  background-color: $cream;
+  width: 50%;
+  left: 0;
+  height: 250px;
+}
+.col-right_bg {
+  position: absolute;
+  background-color: #f4f4f4;
+  width: 50%;
+  right: 0;
+  height: 250px;
+}
+.collection {
+  position: relative;
+  display: flex;
+}
+.gender-selection {
+  display: flex;
+  justify-content: space-between;
+}
+.men {
+  width: 45%;
+  position: relative;
+  height: 250px;
+}
+
+#men-img {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+#men-col {
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-top: 60px;
+  padding-bottom: 25px;
+  font-weight: 300;
+  span {
+    font-weight: 500;
+  }
+}
+.woman {
+  width: 45%;
+  position: relative;
+  height: 250px;
+}
+#woman-img {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}

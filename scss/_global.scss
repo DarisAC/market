@@ -1,0 +1,28 @@
+body,
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  color: black;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.col_button {
+  padding: 10px 35px;
+  background-color: $accent;
+  display: inline-block;
+}
+.product-name {
+  padding-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}

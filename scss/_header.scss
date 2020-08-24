@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  padding-top: 50px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav_item {
+  font-weight: 500;
+  font-size: 14px;
+}
+.header__nav_item:not(:last-child) {
+  margin-right: 35px;
+}
+.header_logo {
+  font-weight: 700;
+  display: flex;
+  margin: 0 100px;
+  align-items: center;
+  h1 {
+    margin-left: 20px;
+  }
+}
+.header__basket_img:not(:last-child) {
+  margin-right: 15px;
+}

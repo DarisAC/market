@@ -1,0 +1,22 @@
+.clothes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.clothes_item {
+  width: 25%;
+  background-color: $woman;
+  position: relative;
+
+  span {
+    position: absolute;
+    bottom: 10%;
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+    left: 8%;
+  }
+}
+.second_style {
+  background-color: $cream;
+}

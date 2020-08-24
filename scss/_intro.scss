@@ -1,0 +1,79 @@
+.intro {
+  background-color: $cream;
+}
+.intro__content {
+  margin-top: 170px;
+  display: flex;
+}
+.sale {
+  font-size: 30px;
+  font-weight: 400;
+}
+.discount {
+  font-weight: 700;
+  font-size: 55px;
+  text-transform: uppercase;
+  margin-bottom: 55px;
+  margin-top: 35px;
+}
+.button {
+  background-color: $accent;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 18px 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  p {
+    color: white;
+  }
+}
+.content_text {
+  width: 48%;
+}
+.content_img {
+  display: flex;
+  width: 48%;
+  position: relative;
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+.price {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+.old_price {
+  font-size: 24px;
+  text-decoration: line-through;
+  letter-spacing: 1px;
+  text-align: right;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.new_price {
+  font-size: 42px;
+  color: red;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.intro__slider {
+  margin-top: 130px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+.intro__slider_item {
+  height: 7px;
+  width: 40px;
+  background-color: #cecece;
+}
+.intro__slider_item:not(:last-child) {
+  margin-right: 15px;
+}
+.active {
+  background-color: $accent;
+}
