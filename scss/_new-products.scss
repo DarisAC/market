@@ -70,3 +70,23 @@
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 991px) {
+  .border {
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .product__content_item {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .product__content_item:last-child {
+    display: none;
+  }
+  .product__content_item {
+    width: 30%;
+    height: 280px;
+  }
+}

@@ -77,3 +77,31 @@
 .active {
   background-color: $accent;
 }
+@media screen and (max-width: 1200px) {
+  .intro__content {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .intro {
+    position: relative;
+  }
+}
+@media screen and (max-width: 767px) {
+  .intro__content {
+    flex-direction: column;
+  }
+  .content_text {
+    width: 100%;
+    order: 2;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .content_img {
+    width: 100%;
+    order: 1;
+  }
+  .intro__slider {
+    display: none;
+  }
+}

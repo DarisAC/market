@@ -25,3 +25,15 @@
   color: white;
   font-weight: 300;
 }
+@media screen and (max-width: 767px) {
+  .first_str {
+    padding-top: 45px;
+    padding-bottom: 15px;
+    font-size: 18px;
+  }
+  .second_str {
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 15px;
+  }
+}

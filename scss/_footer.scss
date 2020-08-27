@@ -60,3 +60,54 @@ li:not(:last-child) {
     }
   }
 }
+.socials {
+  text-align: right;
+}
+@media screen and (max-width: 991px) {
+  .logo_info {
+    max-width: 120px;
+    p {
+      font-size: 10px;
+    }
+    .header_logo {
+      padding-bottom: 15px;
+      h1 {
+        font-size: 14px;
+      }
+    }
+  }
+  .footer_title {
+    font-size: 7px;
+  }
+  .info {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .copyright .container p {
+    padding: 12px 0;
+    font-weight: 400;
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .info .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo_info {
+    max-width: 100%;
+    display: flex;
+    p {
+      width: 65%;
+    }
+    .header_logo h1 {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  .footer_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

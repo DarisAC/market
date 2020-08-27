@@ -14,6 +14,19 @@
     <section class="intro">
       <div class="container">
         <header class="header">
+          <div class="mobile__menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <div class="mobile__menu_active">
+            <div class="exit"><img src="./image/exit.png" alt="" /></div>
+            <a href="#" class="active_item">Для мужчин </a>
+            <a href="#" class="active_item">Для женщин </a>
+            <a href="#" class="active_item">Для детей </a>
+            <a href="#" class="active_item">Оплата</a>
+            <a href="#" class="active_item">Доставка</a>
+          </div>
           <nav class="header__nav">
             <a href="#" class="header__nav_item"
               >Для мужчин
@@ -303,3 +316,15 @@
     </footer>
   </body>
 </html>
+
+<script>
+  let mobileMenu = document.querySelector(".mobile__menu");
+  let header = document.querySelectorAll(".mobile__menu_active");
+  let exit = document.querySelector(".exit");
+  mobileMenu.onclick = function () {
+    header[0].classList.add("show");
+  };
+  exit.onclick = function () {
+    header[0].classList.remove("show");
+  };
+</script>

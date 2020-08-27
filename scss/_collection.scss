@@ -52,3 +52,44 @@
   bottom: 0%;
   right: 0%;
 }
+@media screen and (max-width: 991px) {
+  #men-col {
+    font-size: 18px;
+  }
+  .product-name {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #men-img {
+    display: none;
+  }
+  #woman-img {
+    display: none;
+  }
+  #men-col {
+    font-size: 20px;
+
+    padding-top: 30px;
+  }
+  .col-right_bg {
+    height: 200px;
+  }
+  .col-left_bg {
+    height: 200px;
+  }
+  .men {
+    height: 200px;
+    text-align: center;
+  }
+  .woman {
+    height: 200px;
+    text-align: center;
+  }
+  .product-name {
+    padding-bottom: 15px;
+  }
+  .clothes_item span {
+    font-size: 16px !important;
+  }
+}

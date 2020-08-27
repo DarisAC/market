@@ -20,3 +20,12 @@
 .second_style {
   background-color: $cream;
 }
+@media screen and (max-width: 1200px) {
+  .clothes_item {
+    img {
+      width: 100%;
+
+      object-fit: contain;
+    }
+  }
+}

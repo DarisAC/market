@@ -25,3 +25,34 @@
 .email {
   padding: 12px 20px;
 }
+@media screen and (max-width: 1200px) {
+  .subscribe p {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .subscribe p {
+    font-size: 16px;
+  }
+  .email {
+    padding: 8px 15px;
+  }
+  .sub_button {
+    padding: 9px 15px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .subscribe {
+    .container {
+      flex-direction: column;
+      padding: 30px 0;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    input {
+      margin-bottom: 15px;
+    }
+  }
+}
